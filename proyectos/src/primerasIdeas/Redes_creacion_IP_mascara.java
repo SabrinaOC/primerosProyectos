@@ -27,9 +27,10 @@ public class Redes_creacion_IP_mascara {
 		}
 		
 		//Cantidad de subredes o hosts que crearemos
+		
 		int subRed = utils.Utils.obtenerNumeroAzar(8, 1000);
-		System.out.println("Cantidad que crear: " + masc);
-
+		System.out.println("Cantidad que crear: " + subRed);
+		
 	}
 
 }
